@@ -45,7 +45,7 @@ export default function Index() {
           className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 rounded-lg transition duration-300" 
           onClick={handleSubmit}
         >
-          Send
+          Get Greeting
         </button>
         {response && <p className="mt-4 text-center text-lg font-semibold text-green-600">{response}</p>}
       </div>
